@@ -10,7 +10,7 @@ set_target_properties(kkmeans PROPERTIES
   COMPILE_OPTIONS -Wpedantic -Wall -Wextra
 )
 
-target_link_libraries((kkmeans 
+target_link_libraries(kkmeans 
         dlib
         )
 
