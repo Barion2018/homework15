@@ -12,6 +12,9 @@ set_target_properties(kkmeans PROPERTIES
 
 target_link_libraries(kkmeans 
         dlib
+   	blas
+
+       lapack
         )
 
 install(TARGETS kkmeans  RUNTIME DESTINATION bin)
